@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Grapple Timer - BJJ Training Timer for iPhone',
-  description: 'The ultimate training timer for Brazilian Jiu-Jitsu. Features Siri integration, Spotify control, and adaptive displays for focused training sessions.',
-  keywords: 'BJJ, Brazilian Jiu-Jitsu, training timer, iPhone app, Siri, Spotify, grappling',
+  description: 'The ultimate training timer for Brazilian Jiu-Jitsu. Features Siri integration and adaptive displays for focused training sessions.',
+  keywords: 'BJJ, Brazilian Jiu-Jitsu, training timer, iPhone app, Siri, grappling',
   authors: [{ name: 'Ben Reeve' }],
   icons: {
     icon: '/images/icon.png',

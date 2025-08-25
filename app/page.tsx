@@ -39,7 +39,7 @@ export default function Home() {
               The Ultimate BJJ Training Timer
             </p>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto mb-10">
-              Train smarter with Siri voice control, Spotify integration, and adaptive displays designed specifically for Brazilian Jiu-Jitsu athletes.
+              Train smarter with Siri voice control and adaptive displays designed specifically for Brazilian Jiu-Jitsu athletes.
             </p>
           </div>
         </div>
@@ -104,9 +104,9 @@ export default function Home() {
               description="Start your training hands-free with simple voice commands. Perfect when your hands are wrapped or occupied."
             />
             <FeatureCard
-              icon="🎵"
-              title="Spotify Integration"
-              description="Seamlessly control your music during training. Auto-pause during rest periods and duck audio for timer sounds."
+              icon="🎯"
+              title="Laser Focus"
+              description="No distractions, no ads, no data collection. Just you, your training, and perfect timing."
             />
             <FeatureCard
               icon="⏱️"
@@ -142,8 +142,8 @@ export default function Home() {
             <div className="space-y-6">
               <TechDetail label="Platform" value="iOS 17+ Required" />
               <TechDetail label="Architecture" value="Deterministic State Machine for Precise Timing" />
-              <TechDetail label="Audio" value="Background Audio Support with Smart Ducking" />
-              <TechDetail label="Integration" value="Spotify SDK (Premium & Free Accounts)" />
+              <TechDetail label="Audio" value="Clear Bell and Horn Sounds for Round Transitions" />
+              <TechDetail label="Privacy" value="Zero Data Collection - Everything Stays on Your Device" />
               <TechDetail label="Notifications" value="Rich Background Notifications" />
               <TechDetail label="Performance" value="Optimized for Minimal Battery Impact" />
             </div>

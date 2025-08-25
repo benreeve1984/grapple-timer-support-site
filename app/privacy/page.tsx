@@ -18,85 +18,73 @@ export default function Privacy() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Overview</h2>
             <p className="text-gray-300 leading-relaxed">
-              Grapple Timer is committed to protecting your privacy. This policy explains how we handle your information when you use our iOS application.
+              Grapple Timer is committed to protecting your privacy. We believe in complete transparency: <strong>we do not collect, store, or process any personal data whatsoever</strong>.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Information We Collect</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Grapple Timer is designed with privacy in mind. We collect minimal information:
+            <p className="text-gray-300 leading-relaxed font-semibold">
+              None. We do not collect any data.
             </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Training session preferences (stored locally on your device)</li>
-              <li>Timer configurations and presets (stored locally)</li>
-              <li>Spotify authentication tokens (if you choose to connect Spotify)</li>
-              <li>Anonymous crash reports and performance metrics (via Apple's standard analytics)</li>
-            </ul>
+            <p className="text-gray-300 leading-relaxed mt-4">
+              Grapple Timer operates entirely on your device. All settings, preferences, and timer configurations are stored locally on your iPhone and never leave your device.
+            </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">How We Use Information</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              The limited information we access is used solely to:
+            <h2 className="text-2xl font-semibold mb-4">No Analytics</h2>
+            <p className="text-gray-300 leading-relaxed">
+              We do not use any analytics services, crash reporting tools, or performance monitoring systems. We have no way to track your usage of the app, and we prefer it that way.
             </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>Provide timer functionality and save your preferences</li>
-              <li>Enable Spotify integration (only if you explicitly connect your account)</li>
-              <li>Improve app stability and performance</li>
-              <li>Fix bugs and technical issues</li>
-            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">No Network Requests</h2>
+            <p className="text-gray-300 leading-relaxed">
+              Grapple Timer does not make any network requests. We don't have servers. The app works entirely offline on your device.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">No Third-Party Services</h2>
+            <p className="text-gray-300 leading-relaxed">
+              We do not integrate with any third-party services, SDKs, or external APIs. The app is completely self-contained.
+            </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Data Storage</h2>
             <p className="text-gray-300 leading-relaxed">
-              All your training data and preferences are stored locally on your device. We do not have servers that collect or store your personal information. If you delete the app, all associated data is removed from your device.
+              All app data (timer presets, settings, preferences) is stored locally on your device using iOS's standard storage mechanisms. When you delete the app, all data is completely removed. There is no cloud backup, no sync, and no external storage.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Third-Party Services</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Grapple Timer integrates with the following third-party services:
-            </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li><strong>Spotify:</strong> If you choose to connect Spotify, we use their SDK to control playback. We do not store your Spotify credentials. Spotify's use of your data is governed by their privacy policy.</li>
-              <li><strong>Apple Services:</strong> We use standard iOS features like Siri and notifications. These are governed by Apple's privacy policy.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">Data Sharing</h2>
+            <h2 className="text-2xl font-semibold mb-4">No Advertising</h2>
             <p className="text-gray-300 leading-relaxed">
-              We do not sell, trade, or otherwise transfer your information to third parties. We do not use advertising networks or analytics services that track users across apps.
+              We do not show ads, use advertising identifiers, or include any advertising SDKs. The app is completely ad-free.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">Your Rights</h2>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              You have complete control over your data:
+            <h2 className="text-2xl font-semibold mb-4">Your Privacy Rights</h2>
+            <p className="text-gray-300 leading-relaxed">
+              Since we don't collect any data, there's nothing to request, delete, or opt out of. Your privacy is protected by design - we simply don't have access to your information.
             </p>
-            <ul className="list-disc list-inside text-gray-300 space-y-2">
-              <li>All data is stored locally and can be deleted by removing the app</li>
-              <li>You can disconnect Spotify at any time through the app settings</li>
-              <li>You can disable Siri integration through iOS settings</li>
-              <li>You can opt out of Apple's analytics in iOS settings</li>
-            </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Children's Privacy</h2>
             <p className="text-gray-300 leading-relaxed">
-              Grapple Timer is suitable for users of all ages. We do not knowingly collect personal information from children under 13, as we do not collect personal information from any users.
+              Grapple Timer is suitable for users of all ages. Since we collect absolutely no data from anyone, children's privacy is inherently protected.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">Changes to This Policy</h2>
             <p className="text-gray-300 leading-relaxed">
-              We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated revision date. Continued use of the app after changes constitutes acceptance of the updated policy.
+              This privacy policy is unlikely to change because our commitment to collecting zero data is fundamental to the app. If we ever update this policy, the revision date will be updated.
             </p>
           </section>
 
